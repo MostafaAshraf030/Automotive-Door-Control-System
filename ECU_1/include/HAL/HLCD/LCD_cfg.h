@@ -1,5 +1,5 @@
 /*******************************************************/
-/* Author   : Kholoud Khaled                           */
+/* Author   : Mohamed Fawzi                            */
 /* Date     : 20 DEC 2022                              */
 /* File     : LCD_cfg.h                                */
 /* Version  : V 0.0                                    */

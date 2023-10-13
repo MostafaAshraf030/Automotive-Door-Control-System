@@ -1,6 +1,6 @@
 /****************************************************/
-/*Auther        : Ahmed Khaled                      */
-/*Version       : V0.0.0                            */
+/*Auther        : Mostafa Ashraf                    */
+/*Version       : V0.0                              */
 /*Data          : 14 Aug 2022                       */
 /*Description   : LSTD_TYPES.h                      */
 /****************************************************/

@@ -1,8 +1,7 @@
 /***********************************************************************/
-/*Auther           : Ahmed Tarek                                      */
-/*Version          : V0.0.0                                            */
+/*Auther           : Mostafa Ashraf                                    */
+/*Version          : V0.0                                              */
 /*Data             : 29 MAY 2023                                       */
-/*Description      : MGPIO_Config.h --> RCC Configuratios	           */
 /***********************************************************************/
 
 

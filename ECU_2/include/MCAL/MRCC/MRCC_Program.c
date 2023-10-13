@@ -1,9 +1,9 @@
-#include "LSTD_TYPES.h"
-#include "LBIT_MATH.h"
+#include "../LIB/LSTD_TYPES.h"
+#include "../LIB/LBIT_MATH.h"
 
 /* Upper Layer Inclusion 					*/
 
-/* Dependencies From Same Layer Inclusion */
+/* Dependencies From Same Layer Inclusion   */
 
 #include "MRCC_Inteface.h"
 #include "MRCC_Private.h"
@@ -67,14 +67,5 @@ void MRCC_voidInitSystemClk (void)
 		SET_BIT(MRCC_CCFGR, 0);
 		CLR_BIT(MRCC_CCFGR, 1);
 		#endif
-	
-	#elif MRCC_CLOCK_SRC == MRCC_PLL
-	
-	/* TODO: Assignment */
-		
-	#else 
-		#error "Wrong Clock Source"
-	
-	#endif	
 }
 

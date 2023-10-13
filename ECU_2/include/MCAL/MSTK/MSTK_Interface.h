@@ -1,8 +1,7 @@
 /*******************************************************************************************************/
-/* Author            : Mohamed Fawzi                                                                   */
-/* Version           : V0.0.0                                                                          */
+/* Author            : Mostafa Ashraf                                                                  */
+/* Version           : V0.0                                                                            */
 /* Data              : 15 Aug 2023                                                                     */
-/* Description       : MSTK_Interface.c --> Function Prototypes                                        */
 /* Module  Features  : 1- MSTK_voidInit()                                                              */
 /*                     2- MSTK_voidStart()                                                             */
 /*                     3- MSTK_voidDelayMs()                                                           */
@@ -14,7 +13,7 @@
 
 /*******************************************************************************************************/
 /*	* What i sell To Customer                                                                          */
-/*		*  The Archictect Give The API	                                                               */
+/*	* The Archictect Give The API	                                                                   */
 /*						- The Name Of Function                                                         */
 /*						- What is The Input                                                            */
 /*						- What Is The Output                                                           */
@@ -43,7 +42,6 @@
 
 /*******************************************************************************************************/
 /*                                      01- MSTK_voidInit                                              */
-/*-----------------------------------------------------------------------------------------------------*/
 /* 1- Function Description ->                                                                          */
 /* 2- Function Input                                                                                   */                    
 /* 3- Function Return      -> No Thing                                                                 */
@@ -54,7 +52,6 @@
 void MSTK_voidInit(void)                                   ;
 /*******************************************************************************************************/
 /*                                      02- MSTK_voidStart                                             */
-/*-----------------------------------------------------------------------------------------------------*/
 /* 1- Function Description ->                                                                          */
 /* 2- Function Input                                                                                   */
 /* 3- Function Return      -> No Thing                                                                 */
@@ -63,7 +60,6 @@ void MSTK_voidInit(void)                                   ;
 void MSTK_voidStart(u32 Copy_u32PreloadValue)              ;
 /*******************************************************************************************************/
 /*                                      03- MSTK_voidDelayMs                                           */
-/*-----------------------------------------------------------------------------------------------------*/
 /* 1- Function Description ->                                                                          */
 /* 2- Function Input                                                                                   */
 /* 3- Function Return      -> No Thing                                                                 */
@@ -72,7 +68,6 @@ void MSTK_voidStart(u32 Copy_u32PreloadValue)              ;
 void MSTK_voidDelayMs(u32 Copy_u32DelayMs)                 ;
 /*******************************************************************************************************/
 /*                                      04- MSTK_voidDelayUs                                           */
-/*-----------------------------------------------------------------------------------------------------*/
 /* 1- Function Description ->                                                                          */
 /* 2- Function Input                                                                                   */
 /* 3- Function Return      -> No Thing                                                                 */
@@ -81,7 +76,6 @@ void MSTK_voidDelayMs(u32 Copy_u32DelayMs)                 ;
 void MSTK_voidDelayUs(u32 Copy_u32DelayUs)                 ;
 /*******************************************************************************************************/
 /*                                      05- MSTK_u8ReadFlag                                            */
-/*-----------------------------------------------------------------------------------------------------*/
 /* 1- Function Description ->                                                                          */
 /* 2- Function Input                                                                                   */
 /* 3- Function Return      -> No Thing                                                                 */
@@ -89,7 +83,6 @@ void MSTK_voidDelayUs(u32 Copy_u32DelayUs)                 ;
 u8 MSTK_u8ReadFlag(void)                                   ;
 /*******************************************************************************************************/
 /*                                      06- MSTK_voidCtrlIntState                                      */
-/*-----------------------------------------------------------------------------------------------------*/
 /* 1- Function Description ->                                                                          */
 /* 2- Function Input                                                                                   */
 /* 3- Function Return      -> No Thing                                                                 */

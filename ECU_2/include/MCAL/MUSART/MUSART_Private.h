@@ -2,13 +2,11 @@
  * MUSART_Private.h
  *
  *  Created on: Sep 4, 2022
- *      Author: ahmed Tarek
+ *  Author: Mostafa Ashraf
  */
 
 #ifndef MUSART_PRIVATE_H_
 #define MUSART_PRIVATE_H_
-
-
 
 
 #define MUSART1_BASE_ADRESS     0x40011000UL

@@ -1,22 +1,20 @@
 /*******************************************************************************************************/
-/* Author            : Ahmed Tarek	                                                               */
-/* Version           : V0.0.0                                                                          */
+/* Author            : Mostafa Ashraf	                                                               */
+/* Version           : V0.0                                                                            */
 /* Data              : 23 May 2022                                                                     */
-/* Description       : NVIC_Interface.c --> implementations                                            */
 /* Module  Features  :                                                                                 */
-/*      01- MNVIC_voidEnableInterrupt                                                                                          */
-/*      02- MNVIC_voidDisableInterrupt                                                                                           */
-/*      03- MNVIC_voidEnableInterruptPending                                                                                           */
-/*      04- MNVIC_voidDisableInterruptPending                                                                                           */
-/*      05- MNVIC_u8IsInterruptActive                                                                                           */
-/*      06- MNVIC_voidSetInterruptPriority                                                                                          */
-/*      07- MNVIC_voidSetInterruptGroupMode                                                                                           */
-/*      08-                                                                                            */
+/*      01- MNVIC_voidEnableInterrupt                                                                  */
+/*      02- MNVIC_voidDisableInterrupt                                                                 */
+/*      03- MNVIC_voidEnableInterruptPending                                                           */
+/*      04- MNVIC_voidDisableInterruptPending                                                          */
+/*      05- MNVIC_u8IsInterruptActive                                                                  */
+/*      06- MNVIC_voidSetInterruptPriority                                                             */
+/*      07- MNVIC_voidSetInterruptGroupMode                                                            */
 /*******************************************************************************************************/
 
 /*******************************************************************************************************/	
 /*	* What i sell To Customer                                                                          */
-/*		*  The Archictect Give The API	                                                               */
+/*	* The Archictect Give The API	                                                                   */
 /*						- The Name Of Function                                                         */
 /*						- What is The Input                                                            */
 /*						- What Is The Output                                                           */

@@ -1,20 +1,19 @@
 /*******************************************************************************************************/
-/* Author            : Ahmed Tarek	                                                               */
-/* Version           : V0.0.0                                                                          */
+/* Author            : Mostafa AShraf	                                                               */
+/* Version           : V0.0                                                                            */
 /* Data              : 23 May 2022                                                                     */
-/* Description       : NVIC_Interface.c --> implementations                                            */
 /* Module  Features  :                                                                                 */
 /*      01- MEXTI_voidEnableEXTI                                                                       */
 /*      02- MEXTI_voidDisableEXTI                                                                      */
 /*      03- MEXTI_voidSoftwareInterrupt                                                                */
 /*      04- MEXTI_voidSetTriggerSource                                                                 */
-/*      05- MEXTI_voidSetExtiConfig                                                                                           */
-/*      06- MEXTI_VoidCallBack                                                                                           */
+/*      05- MEXTI_voidSetExtiConfig                                                                    */
+/*      06- MEXTI_VoidCallBack                                                                         */
 /*******************************************************************************************************/
 
 /*******************************************************************************************************/	
 /*	* What i sell To Customer                                                                          */
-/*		*  The Archictect Give The API	                                                               */
+/*	* The Archictect Give The API	                                                                   */
 /*						- The Name Of Function                                                         */
 /*						- What is The Input                                                            */
 /*						- What Is The Output                                                           */

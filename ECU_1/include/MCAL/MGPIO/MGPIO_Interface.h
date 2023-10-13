@@ -1,8 +1,8 @@
 /***********************************************************************/
-/*Auther           : Ahmed Tarek                                      */
-/*Version          : V0.0.0                                            */
+/*Auther           : Mostafa Ashraf                                    */
+/*Version          : V0.0                                              */
 /*Data             : 25 May 2023                                       */
-/*Description      : MRGPIO_Interface.h --> Function Prototypes         */
+/*Description      : MRGPIO_Interface.h --> Function Prototypes        */
 /*Module Features  :                                                   */
 /*        01- MRCC_voidEnablePeripheralClock                           */
 /*        02- MRCC_voidDisablePeripheralClock                          */
@@ -12,7 +12,7 @@
 #ifndef MGPIO_INTERFACE_H
 #define MGPIO_INTERFACE_H
 
-/******************** GPIO PORTS *************************/
+/******************** GPIO PORTS ******************************/
 /**************************************************************/
 
 #define MGPIOA_PORT	0UL
@@ -23,7 +23,7 @@
 #define MGPIOF_PORT	5UL
 #define MGPIOH_PORT	6UL
 
-/******************** GPIO PINS *************************/
+/******************** GPIO PINS *******************************/
 /**************************************************************/
 
 #define MGPIO_PIN0	0UL
@@ -43,7 +43,7 @@
 #define MGPIO_PIN14	14UL
 #define MGPIO_PIN15	15UL
 
-/******************** GPIO MODE *************************/
+/******************** GPIO MODE *******************************/
 /**************************************************************/
 
 #define MGPIO_MODE_INPUT	(0b00)
@@ -51,13 +51,13 @@
 #define MGPIO_MODE_ALTF		(0b10)
 #define MGPIO_MODE_ANALOG	(0b11)
 
-/******************** GPIO OUTPUT TYPE *************************/
+/******************** GPIO OUTPUT TYPE ************************/
 /**************************************************************/
 #define MGPIO_OUTPUT_PUSH_PULL	0UL
 #define MGPIO_OUTPUT_OPEN_DRAIN	1UL
 
 
-/******************** GPIO MODE *************************/
+/******************** GPIO MODE *******************************/
 /**************************************************************/
 
 #define MGPIO_SPEED_LOW			(0b00)
@@ -67,7 +67,7 @@
 
 
 /******************** GPIO INTERNAL PULL *************************/
-/**************************************************************/
+/*****************************************************************/
 
 #define MGPIO_NORMAL	(0b00)
 #define MGPIO_PULL_UP	(0b01)
@@ -99,80 +99,69 @@
 
 
 /*******************************************************************************************************/
-/*                                      01- MGPIO_u8SetPinMode                               */
-/*-----------------------------------------------------------------------------------------------------*/
+/*                                      01- MGPIO_u8SetPinMode                                         */
 /* 1- Function Description ->                                                                          */
-/* 2- Function Input -> GPIO PORT, Pin Number , PIN Mode                                             */
+/* 2- Function Input -> GPIO PORT, Pin Number , PIN Mode                                               */
 /* 3- Function Return      -> No Thing                                                                 */
-/********************************************************************************************/
+/*******************************************************************************************************/
 u8 MGPIO_u8SetPinMode(u8 Copy_u8PortName, u8 Copy_u8PinNumber, u8 Copy_u8PinMode);
 
 
 /*******************************************************************************************************/
-/*                                      01- MGPIO_u8SetOutputType                               */
-/*-----------------------------------------------------------------------------------------------------*/
+/*                                      01- MGPIO_u8SetOutputType                                      */
 /* 1- Function Description ->                                                                          */
-/* 2- Function Input -> GPIO PORT, Pin Number , PIN Mode                                             */
+/* 2- Function Input -> GPIO PORT, Pin Number , PIN Mode                                               */
 /* 3- Function Return      -> No Thing                                                                 */
-/********************************************************************************************/
+/*******************************************************************************************************/
 u8 MGPIO_u8SetOutputType(u8 Copy_u8PortName, u8 Copy_u8PinNumber, u8 Copy_u8TypeMode);
 
 
 /*******************************************************************************************************/
-/*                                      01- MGPIO_u8SetOutputSpeed                               */
-/*-----------------------------------------------------------------------------------------------------*/
+/*                                      01- MGPIO_u8SetOutputSpeed                                     */
 /* 1- Function Description ->                                                                          */
-/* 2- Function Input -> GPIO PORT, Pin Number , PIN Mode                                             */
+/* 2- Function Input -> GPIO PORT, Pin Number , PIN Mode                                               */
 /* 3- Function Return      -> No Thing                                                                 */
-/********************************************************************************************/
+/*******************************************************************************************************/
 u8 MGPIO_u8SetOutputSpeed(u8 Copy_u8PortName, u8 Copy_u8PinNumber, u8 Copy_u8SpeedMode);
 
 /*******************************************************************************************************/
-/*                                      01- MGPIO_u8SetPullState                               */
-/*-----------------------------------------------------------------------------------------------------*/
+/*                                      01- MGPIO_u8SetPullState                                       */
 /* 1- Function Description ->                                                                          */
-/* 2- Function Input -> GPIO PORT, Pin Number , PIN Mode                                             */
+/* 2- Function Input -> GPIO PORT, Pin Number , PIN Mode                                               */
 /* 3- Function Return      -> No Thing                                                                 */
-/********************************************************************************************/
+/*******************************************************************************************************/
 u8 MGPIO_u8SetPullState(u8 Copy_u8PortName, u8 Copy_u8PinNumber, u8 Copy_u8PullMode);
 
 /*******************************************************************************************************/
-/*                                      01- MGPIO_u8GetPinValue                               */
-/*-----------------------------------------------------------------------------------------------------*/
+/*                                      01- MGPIO_u8GetPinValue                                        */
 /* 1- Function Description ->                                                                          */
-/* 2- Function Input -> GPIO PORT, Pin Number , PIN Mode                                             */
+/* 2- Function Input -> GPIO PORT, Pin Number , PIN Mode                                               */
 /* 3- Function Return      -> No Thing                                                                 */
-/********************************************************************************************/
+/*******************************************************************************************************/
 u8 MGPIO_u8GetPinValue(u8 Copy_u8PortName, u8 Copy_u8PinNumber);
 
 
 /*******************************************************************************************************/
-/*                                      01- MGPIO_u8SetPinValue                               */
-/*-----------------------------------------------------------------------------------------------------*/
+/*                                      01- MGPIO_u8SetPinValue                                        */
 /* 1- Function Description ->                                                                          */
-/* 2- Function Input -> GPIO PORT, Pin Number , PIN Mode                                             */
+/* 2- Function Input -> GPIO PORT, Pin Number , PIN Mode                                               */
 /* 3- Function Return      -> No Thing                                                                 */
-/********************************************************************************************/
+/*******************************************************************************************************/
 u8 MGPIO_u8SetPinValue(u8 Copy_u8PortName, u8 Copy_u8PinNumber, u8 Copy_u8PinValue);
 
 /*******************************************************************************************************/
-/*                                      01- MGPIO_u8SetResetDirectValue                               */
-/*-----------------------------------------------------------------------------------------------------*/
+/*                                      01- MGPIO_u8SetResetDirectValue                                */
 /* 1- Function Description ->                                                                          */
-/* 2- Function Input -> GPIO PORT, Pin Number , PIN Mode                                             */
+/* 2- Function Input -> GPIO PORT, Pin Number , PIN Mode                                               */
 /* 3- Function Return      -> No Thing                                                                 */
-/********************************************************************************************/
+/*******************************************************************************************************/
 u8 MGPIO_u8SetResetDirectValue(u8 Copy_u8PortName, u8 Copy_u8PinNumber, u8 Copy_u8PinValue);
 
 
-/*******************************************/
+/*******************************************************************************************************/
 
 void MGPIO_voidSetPinAltFun(u8 Copy_u8PortName ,u8 Copy_u8PinNum, u8 Copy_u8AlFun) ;
 
 
-/* Assignment */
-/* PIN lock function */
-
-/*Alternative Function */
 
 #endif

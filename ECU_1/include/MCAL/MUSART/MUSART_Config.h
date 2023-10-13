@@ -2,7 +2,7 @@
  * MUSART_Config.h
  *
  *  Created on: Sep 4, 2022
- *      Author: ahmed Tarek
+ *  Author: Mostafa Ashraf
  */
 
 #ifndef MUSART_CONFIG_H_

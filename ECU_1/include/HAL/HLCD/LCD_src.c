@@ -1,16 +1,16 @@
 /*******************************************************/
-/* Author   : Kholoud Khaled                           */
+/* Author   : Mohamed Fawzi                            */
 /* Date     : 20 DEC 2022                              */
 /* File     : LCD_src.c                                */
 /* Version  : V 0.0                                    */
 /*******************************************************/
 
-#include "LSTD_TYPES.h"
-#include "LBIT_MATH.h"
+#include "../LIB/LSTD_TYPES.h"
+#include "../LIB/LBIT_MATH.h"
 
-#include "MGPIO_Interface.h"
-#include "MRCC_Inteface.h"
-#include "MSTK_Interface.h"
+#include "../MCAL/MGPIO/MGPIO_Interface.h"
+#include "../MCAL/MRCC/MRCC_Inteface.h"
+#include "../MCAL/MSTK/MSTK_Interface.h"
 
 #include "lcd_int.h"
 #include "lcd_cfg.h"

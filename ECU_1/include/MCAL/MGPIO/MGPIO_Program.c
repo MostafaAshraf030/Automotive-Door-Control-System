@@ -1,6 +1,6 @@
 
-#include "LSTD_TYPES.h"
-#include "LBIT_MATH.h"
+#include "../LIB/LSTD_TYPES.h"
+#include "../LIB/LBIT_MATH.h"
 
 #include "MGPIO_Interface.h"
 #include "MGPIO_Private.h"
@@ -176,7 +176,7 @@ u8 MGPIO_u8SetResetDirectValue(u8 Copy_u8PortName, u8 Copy_u8PinNumber, u8 Copy_
 	}
 	return Local_u8CopyReturnState;
 }
-/***********************/
+
 void MGPIO_voidSetPinAltFun(u8 Copy_u8PortName ,u8 Copy_u8PinNum, u8 Copy_u8AlFun)
 {
 	if(Copy_u8PinNum <=7U)

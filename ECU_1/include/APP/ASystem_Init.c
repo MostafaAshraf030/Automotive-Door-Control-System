@@ -2,7 +2,7 @@
  * ASystem_Init.c
  *
  *  Created on: Aug 16, 2023
- *      Author: Mohamed Fawzi
+ *      Author: Mostafa Ashraf
  */
 
 
@@ -49,7 +49,7 @@ void ASystem_voidInit (void)
 	//MNVIC_voidEnableInterrupt( (u8)37 );//UART1
 	//MNVIC_voidSetInterruptPriority((u8)7 , MNVIC_GROUPMODE_G0S16 , 1 , 1) ;
 	//MNVIC_voidSetInterruptPriority((u8)37 , MNVIC_GROUPMODE_G0S16 , 1 , 2) ;
-	/******************************************************************************/
+*/******************************************************************************/
 
 	//UART REC CHECK
 	MGPIO_u8SetPinMode(MGPIOA_PORT,MGPIO_PIN0,MGPIO_MODE_OUTPUT);
@@ -99,7 +99,7 @@ void ASysTick_voidCheck (void)
 		MSTK_voidDelayMs (1000) ;
 		MGPIO_u8SetPinValue(MGPIOA_PORT,MGPIO_PIN0,MGPIO_LOW_VALUE) ;
 		MSTK_voidDelayMs (1000) ; //100,000 >> 1 sec
-		/***************************************************************************/
+	/***************************************************************************/
 }
 
 

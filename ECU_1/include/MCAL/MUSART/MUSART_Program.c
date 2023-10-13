@@ -2,7 +2,7 @@
  * MUSART_Program.c
  *
  *  Created on: Sep 4, 2022
- *      Author: ahmed Tarek
+ *  Author: Mostafa Ashraf
  */
 
 
@@ -10,8 +10,8 @@
 /*                           Standard Types LIB                        */
 /***********************************************************************/
 
-#include"LSTD_TYPES.h"
-#include"LBIT_MATH.h"
+#include"../LIB/LSTD_TYPES.h"
+#include"../LIB/LBIT_MATH.h"
 
 /***********************************************************************/
 /*                           Lower Layer Interfaces                    */

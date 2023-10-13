@@ -1,8 +1,7 @@
 /***********************************************************************/
-/*Auther           : Mohamed Fawzi                                     */
-/*Version          : V0.0.0                                            */
+/*Auther           : Mostafa Ashraf                                    */
+/*Version          : V0.0                                              */
 /*Data             : 15 Aug 2023                                       */
-/*Description      : MRCC_Interface.h --> Function Prototypes          */
 /*Module Features  :                                                   */
 /*        01- MRCC_voidEnablePeripheralClock                           */
 /*        02- MRCC_voidDisablePeripheralClock                          */
@@ -18,8 +17,7 @@ typedef enum
 }MRCC_Bus_t;
 
 /*******************************************************************************************************/
-/*                                      01- MRCC_voidEnablePeripheralClock                               */
-/*-----------------------------------------------------------------------------------------------------*/
+/*                                      01- MRCC_voidEnablePeripheralClock                             */
 /* 1- Function Description ->                                                                          */
 /* 2- Function Input -> Bus Peripheral, Peripheral Number                                              */
 /* 3- Function Return      -> No Thing                                                                 */
@@ -28,8 +26,7 @@ void MRCC_voidEnablePeripheralClock (MRCC_Bus_t Copy_uddtPeripheralBus, u32 Copy
 
 
 /*******************************************************************************************************/
-/*                                      01- MRCC_voidDisablePeripheralClock                               */
-/*-----------------------------------------------------------------------------------------------------*/
+/*                                      01- MRCC_voidDisablePeripheralClock                            */
 /* 1- Function Description ->                                                                          */
 /* 2- Function Input -> Bus Peripheral, Peripheral Number                                              */
 /* 3- Function Return      -> No Thing                                                                 */
@@ -37,10 +34,9 @@ void MRCC_voidEnablePeripheralClock (MRCC_Bus_t Copy_uddtPeripheralBus, u32 Copy
 void MRCC_voidDisablePeripheralClock (MRCC_Bus_t Copy_uddtPeripheralBus, u32 Copy_u32PeripheralNumber);
 
 /*******************************************************************************************************/
-/*                                      01- MRCC_voidInitSystemClk                              */
-/*-----------------------------------------------------------------------------------------------------*/
+/*                                      01- MRCC_voidInitSystemClk                                     */
 /* 1- Function Description ->                                                                          */
-/* 2- Function Input -> 				                                              */
+/* 2- Function Input -> 				                                                               */
 /* 3- Function Return      -> No Thing                                                                 */
 /*******************************************************************************************************/
 void MRCC_voidInitSystemClk (void);
@@ -62,11 +58,6 @@ void MRCC_voidInitSystemClk (void);
 
 #define MRCC_PERIPHERAL_EN_SPI1 12UL
 
-/********************* Peripherals Numbers In APB1 ***********/
-/***********************************************************/
-
-/********************* Peripherals Numbers In APB2 ***********/
-/***********************************************************/
 
 #define MRCC_USART1 4UL
 
