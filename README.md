@@ -1,2 +1,2 @@
-Automotive-Door-Control-System
+Automotive Door Control System
 Based on ARM STM32
